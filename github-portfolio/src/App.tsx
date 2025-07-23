@@ -7,7 +7,7 @@ const workHistory = [
     role: "Lead Fullstack Developer",
     years: "2021 - Present",
     highlights: [
-      "Architected scalable microservices on AWS.",
+      "Architected scalable microservices on AWS. >netCore",
       "Mentored 8+ engineers and led code reviews.",
       "Integrated CI/CD and DevOps best practices."
     ]
