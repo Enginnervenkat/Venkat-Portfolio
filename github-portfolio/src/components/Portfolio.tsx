@@ -3,7 +3,7 @@ import React from 'react';
 const Portfolio: React.FC = () => {
     return (
         <div className="portfolio">
-            <h1>My Portfolio</h1>
+            <h1>My Portfolio.</h1>
             <section>
                 <h2>Projects</h2>
                 <ul>
