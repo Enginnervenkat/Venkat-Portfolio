@@ -53,17 +53,14 @@ const currentProject = {
 };
 
 const learning = [
-  "AI/ML (LLMs, Prompt Engineering)",
-  "Next.js 14",
-  "Edge Computing",
-  "Cloud Native Patterns"
+  "AI/ML (LLMs, Prompt Engineering)", "C#-12", "DotNetCore 9"
 ];
 
 function App() {
   return (
     <div className="App">
       <Helmet>
-        <title>Venkat | Senior Fullstack Developer Portfolio</title>
+        <title>VENKATESH | Senior Fullstack Developer Portfolio</title>
         <meta name="description" content="Venkat's portfolio - 12+ years Fullstack Developer (React, Node.js, AWS, DevOps). Work history, projects, skills, resume, and more." />
         <meta name="keywords" content="Venkat, Fullstack Developer, React, Node.js, AWS, DevOps, Portfolio, Resume, TypeScript, Senior Developer" />
         <meta name="author" content="Venkat" />
@@ -80,18 +77,18 @@ function App() {
               src="https://avatars.githubusercontent.com/u/9919?s=200&v=4"
               alt="Venkat"
             />
-            <h2>Venkat</h2>
+            <h2>VENKATESH A</h2>
             <p>
               Experienced in architecting and delivering robust, scalable solutions for startups and enterprises. 
               Strong focus on clean code, automation, and continuous learning.
             </p>
-            <ul className="about-list">
-              <li><strong>Email:</strong> venkat@email.com</li>
-              <li><strong>Location:</strong> Bangalore, India</li>
-              <li><strong>Currently Learning:</strong> AI/ML, Next.js, Cloud Native</li>
-            </ul>
+            {/* <ul className="about-list">
+              <li><strong>Email:</strong> venkatlapc@email.com</li>
+              <li><strong>Location:</strong> Chennai and Bangalore, India</li>
+              <li><strong>Practicing:</strong> AI + .Net with Prompt Engineering</li>
+            </ul> */}
             <div className="header-links">
-              <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer" className="linkedin-btn">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/venkatesh-a-67b92483" target="_blank" rel="noopener noreferrer" className="linkedin-btn">LinkedIn</a>
               <a href="/Venkat_Resume.pdf" download className="resume-btn">Download Resume</a>
             </div>
           </div>
@@ -161,12 +158,15 @@ function App() {
             <li className="skill-badge">JavaScript</li>
             <li className="skill-badge">TypeScript</li>
             <li className="skill-badge">React</li>
+            <li className="skill-badge">DotNetCore</li>
+            <li className="skill-badge">MAUI</li>
+            <li className="skill-badge">Sql</li>
+            <li className="skill-badge">WPF</li>
+            <li className="skill-badge">Micro Services</li>
+            <li className="skill-badge">OpenAi-Turbo</li>
+            <li className="skill-badge">REST Api</li>
+            <li className="skill-badge">C#</li>
             <li className="skill-badge">Node.js</li>
-            <li className="skill-badge">Express</li>
-            <li className="skill-badge">AWS</li>
-            <li className="skill-badge">Docker</li>
-            <li className="skill-badge">Kubernetes</li>
-            <li className="skill-badge">CI/CD</li>
             <li className="skill-badge">GraphQL</li>
             <li className="skill-badge">MongoDB</li>
             <li className="skill-badge">PostgreSQL</li>
@@ -175,7 +175,7 @@ function App() {
         </section>
 
         <section className="section">
-          <h2>Currently Learning</h2>
+          <h2>Practicing</h2>
           <ul className="skills-list">
             {learning.map((item, idx) => (
               <li key={idx} className="skill-badge">{item}</li>
